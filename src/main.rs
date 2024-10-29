@@ -131,5 +131,7 @@ fn main() -> Result<()> {
         std::process::exit(128);
     }
 
+    info!("✨ All checks passed ✨");
+
     Ok(())
 }
